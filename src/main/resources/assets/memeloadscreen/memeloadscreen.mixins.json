@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_8",
+  "package": "xyz.kamefrede.memeloadscreen.mixin",
+  "refmap": "memeloadscreen.refmap.json",
+  "mixins": [
+    "MixinResourceLoadProgressGui"
+  ],
+  "client": [
+    "MixinResourceLoadProgressGui"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
